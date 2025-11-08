@@ -25,17 +25,17 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-#include <string.h> 
-#include <stdio.h>
+// #include <string.h> 
+// #include <stdio.h>
 
-int main()
-{
-	char h[] = "hello";
-	char o[] = "hello";
+// int main()
+// {
+// 	char h[] = "hello";
+// 	char o[] = "hello";
 
-	bzero(h,3);
-	ft_bzero(o,3);
-	printf("original -->%s\n",h);
-	printf("ft -->%s",o);	
+// 	bzero(h,3);
+// 	ft_bzero(o,3);
+// 	printf("original -->%s\n",h);
+// 	printf("ft -->%s",o);	
 	
-}
+// }
